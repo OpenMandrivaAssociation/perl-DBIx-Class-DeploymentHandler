@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    (DEPRECATED) Predefined searches to find what you want from the version storage
 License:    GPL+ or Artistic
@@ -22,6 +22,7 @@ BuildRequires: perl(Method::Signatures::Simple)
 BuildRequires: perl(Moose)
 BuildRequires: perl(MooseX::Role::Parameterized)
 BuildRequires: perl(SQL::Translator)
+BuildRequires: perl(Test::Deep)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Try::Tiny)
