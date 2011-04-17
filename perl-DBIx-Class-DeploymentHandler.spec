@@ -1,9 +1,9 @@
 %define upstream_name    DBIx-Class-DeploymentHandler
-%define upstream_version 0.001004
+%define upstream_version 0.001005
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 4
+Release:    %mkrel 1
 
 Summary:    Extensible DBIx::Class deployment
 License:    GPL+ or Artistic
