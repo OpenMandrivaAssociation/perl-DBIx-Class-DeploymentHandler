@@ -1,15 +1,15 @@
 %define upstream_name    DBIx-Class-DeploymentHandler
-%define upstream_version 0.001005
+%define upstream_version 0.002235
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Extensible DBIx::Class deployment
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:    	https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/DBIx/%{upstream_name}-%{upstream_version}.tar.gz
+Url:    	https://github.com/frioux/DBIx-Class-DeploymentHandler
+Source0:	https://cpan.metacpan.org/authors/id/W/WE/WESM/DBIx-Class-DeploymentHandler-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
