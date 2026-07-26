@@ -1,15 +1,13 @@
 %define upstream_name    DBIx-Class-DeploymentHandler
-%define upstream_version 0.002235
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.002235
+Release:	2
 
 Summary:	Extensible DBIx::Class deployment
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:    	https://github.com/frioux/DBIx-Class-DeploymentHandler
-Source0:	https://cpan.metacpan.org/authors/id/W/WE/WESM/DBIx-Class-DeploymentHandler-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/W/WE/WESM/DBIx-Class-DeploymentHandler-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -44,7 +42,7 @@ that we think will not only work well for everyone, but will also yield the
 best overall mileage.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
